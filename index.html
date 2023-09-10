@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Background with Earth image */
+        .earth-bg {
+            background-image: url('background.jpeg');
+            background-size: cover;
+            background-attachment: fixed;
+            text-align: center;
+            height: 100vh; /* Set to full viewport height */
+            overflow: hidden; /* Hide overflow content */
+            position: relative; /* Create a positioning context for the icons */
+        }
+
+        .earth-bg .logo {
+            margin-top: 20vh; /* Adjust the margin for logo positioning */
+            position: absolute; /* Position icons relative to .earth-bg */
+            top: 10%; /* Center vertically */
+            left: 50%; /* Center horizontally */
+            transform: translate(-50%, -50%); /* Center the icons precisely */
+        }
+
+        /* Social icons */
+        .social-icons {
+            width: 100vw;
+            position: absolute; /* Position icons relative to .earth-bg */
+            top: 70%; /* Center vertically */
+            left: 50%; /* Center horizontally */
+            transform: translate(-50%, -50%); /* Center the icons precisely */
+        }
+
+        .social-icons a img {
+            height: 10vh; /* Adjust the height to your desired size */
+            margin: 10px; /* Add spacing between icons */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="earth-bg">
+        <div class="logo">
+            <img src="logo.png" alt="Your Logo">
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100065021438451" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/darkviolet0909/?hl=en" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D%252B96895803819%26data%3DARBOqrOjEsNx4hniAzixhDj_W3qsJDAt6nQNDxzNPBSw0Vha8NYZy08PWdNpn9aVOpwthCP0P2FkypXolipSk26NbCFjhxKJMN17z2RM8YEnHjT9xQwS7TlVPlyeJK_GBgqBDZmf2pTlk0nppcLAFmI%26source%3DFB_Page%26app%3Dfacebook%26entry_point%3Dpage_cta%26fbclid%3DIwAR3hQRIvvjcLBK5ziifcsWP_ro65jpQOmcV4LEH2-ARYoqnqkL2ZzBJ2L3g&h=AT0OkUsU49slNr_-5hUakZxie6JgQQcHZUs3iukJan8OcU1ZkrMLhlAmju5supRvIZSzSj1Dnzqt4_pqy-vCO9-InfV54FqZqJXFHz5-ay6X8fAnWvyMnyo3wsC7Z8voVMs" target="_blank"><img src="whatsapp.png" alt="WhatsApp"></a>
+        </div>
+    </div>
+</body>
+</html>
