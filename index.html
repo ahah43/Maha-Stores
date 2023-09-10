@@ -14,7 +14,7 @@
             background-size: cover;
             background-attachment: fixed;
             text-align: center;
-            width: 100vw; /* Set to full viewport height */
+            height: 100vh; /* Set to full viewport height */
             overflow: hidden; /* Hide overflow content */
             position: relative; /* Create a positioning context for the icons */
         }
@@ -34,6 +34,8 @@
             top: 70%; /* Center vertically */
             left: 50%; /* Center horizontally */
             transform: translate(-50%, -50%); /* Center the icons precisely */
+            filter: grayscale(1) contrast(100) brightness(1);
+               mix-blend-mode: multiply;
         }
 
         .social-icons a img {
